@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage, FaInternetExplorer, FaRobot, FaTextHeight, FaFile } from 'react-icons/fa';
 import Animacao from './Animacao';
 const links = [
+  { icon: <FaRobot />, label: 'Link da Emergent AI', url: ' https://app.emergent.sh/?via=costa' },
   { icon: <FaRobot />, label: 'Link da Verdent AI', url: ' https://www.verdent.ai/?id=700219' },
   { icon: <FaRobot />, label: 'Link da Runable AI', url: ' https://runable.com/?utm_source=insta&utm_id=eliasjr.dev' },
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
