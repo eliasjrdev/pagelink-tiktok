@@ -3,7 +3,7 @@ import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, 
 import Animacao from './Animacao';
 const links = [
   { icon: <FaRobot />, label: 'Link da Emergent AI', url: ' https://app.emergent.sh/?via=costa' },
-  { icon: <FaRobot />, label: 'Link da Verdent AI', url: ' https://www.verdent.ai/?id=700219' },
+  { icon: <FaRobot />, label: 'Acesse a verdent AI', url: 'https://bit.ly/4aDyZgu' },
   { icon: <FaRobot />, label: 'Link da Runable AI', url: ' https://runable.com/?utm_source=insta&utm_id=eliasjr.dev' },
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
