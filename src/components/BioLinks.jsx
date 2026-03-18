@@ -2,9 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage, FaInternetExplorer, FaRobot, FaTextHeight, FaFile } from 'react-icons/fa';
 import Animacao from './Animacao';
 const links = [
-  { icon: <FaRobot />, label: 'Link da Emergent AI', url: ' https://app.emergent.sh/?via=costa' },
+  { icon: <FaRobot />, label: 'Link da Emergent', url: ' https://app.emergent.sh/?utm_shift=redirect&via=costa' },
   { icon: <FaRobot />, label: 'Acesse a verdent AI', url: 'https://bit.ly/4aDyZgu' },
-  { icon: <FaRobot />, label: 'Link da Runable AI', url: ' https://runable.com/?utm_source=insta&utm_id=eliasjr.dev' },
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
   { icon: <FaTshirt />, label: 'Melhores camisetas de t.i |', extra: 'Cupom: ELIASJR10', url: 'https://www.useti.shop/useti?utm_source=instagram&utm_medium=afiliado&utm_campaign=eliasjrdev' },
   { icon: <FaLanguage />, label: 'Melhor escola de inglês para Techs', url: 'https://api.whatsapp.com/send?phone=5583993611976' },
