@@ -3,7 +3,7 @@ import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, 
 import Animacao from './Animacao';
 const links = [
   { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
-  { icon: <FaRobot />, label: 'Link da Genspark AI', url: 'https://www.genspark.ai/?utm_source=ig&utm_campaign=eliasjr.dev' },
+  { icon: <FaRobot />, label: 'Link da Emergent', url: ' https://app.emergent.sh/?utm_shift=redirect&via=costa' },
   { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y?mode=ems_copy_t' },
   { icon: <FaGithub />, label: 'Meu GitHub', url: 'https://github.com/eliasjrdev' },
   { icon: <FaLinkedin />, label: 'Meu Linkedin', url: 'https://www.linkedin.com/in/elias-c/' }
