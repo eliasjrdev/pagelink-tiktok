@@ -1,9 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { FaBriefcase, FaTags, FaGraduationCap, FaTshirt, FaDesktop, FaLinkedin, FaGithub, FaRocket, FaLanguage, FaInternetExplorer, FaRobot, FaTextHeight, FaFile } from 'react-icons/fa';
+import { FaTags, FaLinkedin, FaGithub, FaRocket, FaCamera, } from 'react-icons/fa';
 import Animacao from './Animacao';
 const links = [
-  { icon: <FaRocket />, label: 'Desconto na Rocketseat |', extra: 'Cupom: ELIASJR', url: 'https://www.rocketseat.com.br/oferta/influencer/v2/eliasjr' },
-  { icon: <FaRobot />, label: 'Link da Emergent', url: ' https://app.emergent.sh/?utm_shift=redirect&via=costa' },
+  { icon: <FaCamera />, label: 'Câmera EMEET Pixy |', extra: 'Cupom: EMEEHUPQ2HHA', url: 'https://s.shopee.com.br/6VNxpYPRFv' },
   { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y?mode=ems_copy_t' },
   { icon: <FaGithub />, label: 'Meu GitHub', url: 'https://github.com/eliasjrdev' },
   { icon: <FaLinkedin />, label: 'Meu Linkedin', url: 'https://www.linkedin.com/in/elias-c/' }
