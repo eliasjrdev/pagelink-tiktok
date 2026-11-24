@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
-import { FaTags, FaLinkedin, FaGithub, FaRocket, FaCamera, } from 'react-icons/fa';
+import { FaTags, FaLinkedin, FaGithub, FaRocket, FaCamera, FaBook, } from 'react-icons/fa';
 import Animacao from './Animacao';
 import { FaComputer } from 'react-icons/fa6';
 const links = [
-  { icon: <FaComputer />, label: 'GTA Alura', url: 'https://alura.tv/eliascosta-gta' },
-  { icon: <FaCamera />, label: 'Câmera EMEET Pixy |', extra: 'Cupom: EMEEHUPQ2HHA', url: 'https://s.shopee.com.br/6VNxpYPRFv' },
+  { icon: <FaBook />, label: 'Black November Alura', url: 'https://alura.com.br/eliascosta' },
+  { icon: <FaComputer />, label: 'Dell 15', url: 'https://creatorfolio.co/eliasjr-dev' },
   { icon: <FaTags />, label: 'Entre no meu grupo de ofertas', url: 'https://chat.whatsapp.com/HpwUiTQJhxW1w0eiDHlp9Y?mode=ems_copy_t' },
   { icon: <FaGithub />, label: 'Meu GitHub', url: 'https://github.com/eliasjrdev' },
   { icon: <FaLinkedin />, label: 'Meu Linkedin', url: 'https://www.linkedin.com/in/elias-c/' }
